@@ -11,3 +11,14 @@
          }));
       }
    };
+
+//Material-UI TextField
+<TextField
+   fullWidth
+   name="UserName"
+   label="Username"
+   value={this.state.UserName}
+   error={this.state.error.UserName}
+   onChange={this.handleChange}
+   onBlur={this.handleBlur}
+/>
